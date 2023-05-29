@@ -2,7 +2,7 @@ version: 2
 updates:
   # dotnet tools
   - package-ecosystem: "nuget"
-    directory: "/.config"
+    directory: "/"
     schedule:
       interval: "daily"
     labels:
@@ -15,14 +15,6 @@ updates:
     labels:
       - "infrastructure"
       - "dependencies"
-  - package-ecosystem: "nuget"
-    directory: "/_scripts/templates/CSharp"
-    schedule:
-      interval: "daily"
-    labels:
-      - "infrastructure"
-      - "dependencies"
-      - "target:csharp-standard"
   # JavaScript
   - package-ecosystem: "npm"
     directory: "/_scripts/templates/JavaScript"
