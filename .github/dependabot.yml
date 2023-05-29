@@ -4,21 +4,21 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/.config"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
   - package-ecosystem: "nuget"
     directory: "/_scripts/templates/CSharp"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
@@ -27,7 +27,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/_scripts/templates/JavaScript"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
@@ -36,7 +36,7 @@ updates:
   - package-ecosystem: "composer"
     directory: "/_scripts/templates/PHP"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
@@ -45,7 +45,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/_scripts/templates/Python3"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
@@ -54,7 +54,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/_scripts/templates/TypeScript"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
