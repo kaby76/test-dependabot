@@ -1,0 +1,61 @@
+version: 2
+updates:
+  # dotnet tools
+  - package-ecosystem: "nuget"
+    directory: "/.config"
+    schedule:
+      interval: "hourly"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "hourly"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+  - package-ecosystem: "nuget"
+    directory: "/_scripts/templates/CSharp"
+    schedule:
+      interval: "hourly"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+      - "target:csharp-standard"
+  # JavaScript
+  - package-ecosystem: "npm"
+    directory: "/_scripts/templates/JavaScript"
+    schedule:
+      interval: "hourly"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+      - "target:javascript"
+  # PHP
+  - package-ecosystem: "composer"
+    directory: "/_scripts/templates/PHP"
+    schedule:
+      interval: "hourly"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+      - "target:php"
+  # Python3
+  - package-ecosystem: "pip"
+    directory: "/_scripts/templates/Python3"
+    schedule:
+      interval: "hourly"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+      - "target:python3"
+  # TypeScript
+  - package-ecosystem: "npm"
+    directory: "/_scripts/templates/TypeScript"
+    schedule:
+      interval: "hourly"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+      - "target:typescript"
