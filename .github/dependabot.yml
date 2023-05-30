@@ -2,7 +2,7 @@ version: 2
 updates:
   # dotnet tools
   - package-ecosystem: "nuget"
-    directory: "/.config"
+    directory: "/"
     schedule:
       interval: "daily"
     labels:
