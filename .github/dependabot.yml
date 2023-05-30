@@ -2,14 +2,6 @@ version: 2
 updates:
   # dotnet tools
   - package-ecosystem: "nuget"
-    directory: "/console"
-    schedule:
-      interval: "daily"
-    labels:
-      - "infrastructure"
-      - "dependencies"
-  # dotnet tools
-  - package-ecosystem: "nuget"
     directory: "/.config"
     schedule:
       interval: "daily"
