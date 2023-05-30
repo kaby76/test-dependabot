@@ -7,18 +7,6 @@
       "commands": [
         "trgen"
       ]
-    },
-    "trxml": {
-      "version": "0.20.21",
-      "commands": [
-        "trxml"
-      ]
-    },
-    "trxml2": {
-      "version": "0.20.21",
-      "commands": [
-        "trxml2"
-      ]
     }
   }
 }
