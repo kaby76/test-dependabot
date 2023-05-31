@@ -17,7 +17,7 @@ updates:
       - "infrastructure"
       - "dependencies"
         # dotnet tools
-  - package-ecosystem: "npmt"
+  - package-ecosystem: "npm"
     directory: "/_scripts/templates/JavaScript"
     schedule:
       interval: "daily"
