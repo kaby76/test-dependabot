@@ -8,3 +8,19 @@ updates:
     labels:
       - "infrastructure"
       - "dependencies"
+  # dotnet tools
+  - package-ecosystem: "npm"
+    directory: "/_scripts/templates/TypeScript"
+    schedule:
+      interval: "daily"
+    labels:
+      - "infrastructure"
+      - "dependencies"
+        # dotnet tools
+  - package-ecosystem: "npmt"
+    directory: "/_scripts/templates/JavaScript"
+    schedule:
+      interval: "daily"
+    labels:
+      - "infrastructure"
+      - "dependencies"
