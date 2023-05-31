@@ -2,9 +2,10 @@ version: 2
 updates:
   # dotnet tools
   - package-ecosystem: "nuget"
-    directory: "/.config"
+    directory: "/_scripts/templates/CSharp"
     schedule:
       interval: "daily"
     labels:
       - "infrastructure"
       - "dependencies"
+
