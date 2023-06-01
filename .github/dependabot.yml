@@ -3,7 +3,7 @@ enable-beta-ecosystems: true
 updates:
   # dotnet tools
   - package-ecosystem: "nuget"
-    directory: "/.config"
+    directory: "/"
     schedule:
       interval: "daily"
     labels:
