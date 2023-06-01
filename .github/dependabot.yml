@@ -1,14 +1,10 @@
 version: 2
 enable-beta-ecosystems: true
 updates:
-  # dotnet tools
-  - package-ecosystem: "nuget"
-    directory: "/"
+  - package-ecosystem: "pub"
+    directory: "/_scripts/templates/Dart"
     schedule:
       interval: "daily"
-    labels:
-      - "infrastructure"
-      - "dependencies"
   # dotnet tools
   - package-ecosystem: "nuget"
     directory: "/_scripts/templates/CSharp"
