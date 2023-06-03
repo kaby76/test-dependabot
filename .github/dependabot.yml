@@ -1,11 +1,6 @@
 version: 2
 # enable-beta-ecosystems: true
 updates:
-  - package-ecosystem: "pub"
-    directory: "/_scripts/templates/Dart"
-    schedule:
-      interval: "daily"
-  # dotnet tools
   - package-ecosystem: "nuget"
     directory: "/console"
     schedule:
@@ -13,21 +8,3 @@ updates:
     labels:
       - "infrastructure"
       - "dependencies"
-  # typescript
-  - package-ecosystem: "npm"
-    directory: "/_scripts/templates/TypeScript"
-    schedule:
-      interval: "daily"
-    labels:
-      - "infrastructure"
-      - "dependencies"
-        # dotnet tools
-  - package-ecosystem: "npm"
-    directory: "/_scripts/templates/JavaScript"
-    schedule:
-      interval: "daily"
-    labels:
-      - "infrastructure"
-      - "dependencies"
-
-
