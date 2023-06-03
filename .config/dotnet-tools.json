@@ -3,7 +3,7 @@
   "isRoot": true,
   "tools": {
     "trgen": {
-      "version": "0.20.17",
+      "version": "0.20.25",
       "commands": [
         "trgen"
       ]
