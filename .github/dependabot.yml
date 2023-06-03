@@ -8,3 +8,10 @@ updates:
     labels:
       - "infrastructure"
       - "dependencies"
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "infrastructure"
+      - "dependencies"
