@@ -7,7 +7,7 @@ updates:
       interval: "daily"
   # dotnet tools
   - package-ecosystem: "nuget"
-    directory: "/_scripts/templates/CSharp"
+    directory: "/console"
     schedule:
       interval: "daily"
     labels:
