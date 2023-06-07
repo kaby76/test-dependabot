@@ -3,7 +3,7 @@ module example.com/myparser
 go 1.18
 
 require (
-        github.com/antlr4-go/antlr/v4 v4.12.0 // indirect
+        github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 )
 require (
         github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
