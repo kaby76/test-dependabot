@@ -8,17 +8,7 @@ updates:
     labels:
       - "infrastructure"
       - "dependencies"
-  - package-ecosystem: "nuget"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "tr*"
-        update-types: ["version-update:semver-patch"]
-     labels:
-      - "infrastructure"
-      - "dependencies"
-  - package-ecosystem: gomod
+  - package-ecosystem: "gomod"
     directory: "/templates/Go"
     schedule:
       interval: "daily"
