@@ -19,7 +19,9 @@ updates:
       - "infrastructure"
       - "dependencies"
   - package-ecosystem: gomod
-    directory: /templates/Go
+    directory: "/templates/Go"
     schedule:
-      interval: daily
-      
+      interval: "daily"
+    labels:
+      - "infrastructure"
+      - "dependencies"
