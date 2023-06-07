@@ -12,7 +12,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    labels:
+    ignore:
+      - dependency-name: "tr*"
+        update-types: ["version-update:semver-patch"]
+     labels:
       - "infrastructure"
       - "dependencies"
       
